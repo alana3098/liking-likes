@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="likes.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h1>Network</h1>
+        </div>
+        <h1 class="title">Your Feed</h1>
+        <div class="row">
+            <div class="left-box">
+                <div class="user">
+                    <img class="avatar" src="data:image/png;base64,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" alt="curly hair avatar">
+                    <p><a class="text-1" href="#">Add an avatar</a></p>
+                    <h2>Jane Doe</h2>
+                </div>
+            </div>
+            <div class="right">
+                <div class="post">
+                    <div class="top-line">
+                        <h2>Neil M</h2>
+                        <div class="likes">
+                            <span id="post-1">9 like(s)</span>
+                            <button class="like-btn" onclick="like(0)">Like</button>
+                        </div>
+                    </div>
+                    <p>I just set up this new discord bot, let me know what you all think. <a href="">link</a></p>
+                </div>
+                <div class="post">
+                    <div class="top-line">
+                        <h2>Nichole K</h2>
+                        <div class="likes">
+                            <span id="post-2">12 like(s)</span>
+                            <button class="like-btn" onclick="like(1)">Like</button>
+                        </div>
+                    </div>
+                    <p>Just finished my <a href="">next comic</a>, check it out.</p>
+                </div>
+                <div class="post">
+                    <div class="top-line">
+                        <h2>Jim R</h2>
+                        <div class="likes">
+                            <span id="post-3">9 like(s)</span>
+                            <button class="like-btn" onclick="like(2)">Like</button>
+                        </div>
+                    </div>
+                    <p>I can't stop listening to the <a href="">new album</a>. Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="likes.js"></script>
+</body>
+</html>
